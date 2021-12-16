@@ -1,7 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Form from './Form';
+import Data from './Data';
 
 function App() {
+  const name = "Abid";
+  const age =29;
+
+  const clickMe = () =>{
+    console.log("I got clicked");
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +25,8 @@ function App() {
         >
           Learn React
         </a>
+        <Data/>
+        <Form/>
       </header>
     </div>
   );
